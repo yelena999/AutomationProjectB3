@@ -32,7 +32,7 @@ public class practice_Task_3 {
         userNameBox.sendKeys(DocuportConstants.USERNAME_ADVISOR);
 
         WebElement passwordBox = driver.findElement(By.xpath("//input[@id='input-15']"));
-        passwordBox.sendKeys(DocuportConstants.PASSWORD_ADVISOR);
+        passwordBox.sendKeys(DocuportConstants.PASSWORD);
 
         WebElement loginButton = driver.findElement(By.xpath("//span[@class='v-btn__content']"));
         loginButton.click();
