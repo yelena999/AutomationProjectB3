@@ -28,6 +28,9 @@ public class T1_actions_hoverover {
 
         actions.moveToElement(googleSearch).perform();
 
+        //actions.contextClick().moveToElement(googleSearch).dragAndDrop(googleSearch, googleSearch).perform();
+
+
         Thread.sleep(3000);
 
         actions.moveToElement(feelingLucky).perform();
